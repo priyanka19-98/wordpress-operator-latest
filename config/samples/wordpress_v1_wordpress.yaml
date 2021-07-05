@@ -1,0 +1,7 @@
+apiVersion: wordpress.example.com/v1
+kind: Wordpress
+metadata:
+  name: wordpress-sample
+spec:
+  # Add fields here
+  foo: bar
