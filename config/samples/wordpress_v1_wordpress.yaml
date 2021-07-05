@@ -1,7 +1,7 @@
 apiVersion: wordpress.example.com/v1
 kind: Wordpress
 metadata:
-  name: wordpress-sample
+  name: mysite
 spec:
-  # Add fields here
-  foo: bar
+  sqlrootpassword: "abc" 
+  
